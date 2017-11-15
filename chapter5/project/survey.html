@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles/fusionStyles.css" >
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Help us serve you better</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+      <header>
+        <img src="images/logo.jpeg" alt="logo" height="125" width="300">
+        <h1>Sloan Rabon's Food Fusion</h1>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="breakfast.html">Breakfast</a></li>
+            <li><a href="lunch.html">Lunch</a></li>
+            <li><a href="dinner.html">Dinner</a></li>
+            <li><a href="extras.html">Appetizers and Extras</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="events.html">Special Events</a></li>
+            <li><a href="order.html">Online Ordering</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Survey</legend>
+
+          <div class="form-group">
+            <label for="customer-name">Customer Name:</label>
+            <input type="text" name="customer-name" id="customer-name" placeholder="Sloan Rabon" class="form-control" required/>
+          </div>
+
+          <div class="form-group">
+            <label for="phone-number">Phone Number: </label>
+            <input type="text" name="phone-number" id="phone-number" placeholder="(###) ###-####" class="form-control"/>
+          </div>
+
+          <div class="form-group">
+            <label for="favorite-recipe">Favorite Recipe: </label>
+            <select name="favorite-recipe" id="favorite-recipe" class="form-control">
+              <option>Cinammon Breakfast Pizza</option>
+              <option>Bacon Breakfast Pizza</option>
+              <option>Margheritta Pizza</option>
+              <option>North African Pizza</option>
+              <option>Indian Tandoori Chicken, Roasted Cauliflower and Cashew Pizza</option>
+              <option>Fugazetta</option>
+              <option>Bruschetta with Ricotta and Tomatoes</option>
+              <option>Chocolate Chip Pizza</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="rating">Rating: </label>
+            <input type="range" min="1" max="10" name="rating" id="rating" class="form-control"/>
+          </div>
+
+          <div class="form-group">
+            <p>
+              <label for="comments">Comments: </label>
+            </p>
+            <textarea id="comments" name="comments" rows="15" class="form-control"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="date-visited">Date Visited: </label>
+            <input type="date" name="date-visited" id="date-visited" class="form-control"/>
+          </div>
+
+          <div class="form-check">
+            <label for="time-visited">Time Visited: </label>
+            <div class="form-check">
+              <input type="radio" id="early" name="time-visited" value="Early" class="form-control">Early</input>
+            </div>
+            <div class="form-check">
+              <input type="radio" id="midday" name="time-visited" value="Midday" class="form-control">Midday</input>
+            </div>
+            <div class="form-check">
+              <input type="radio" id="afternoon" name="time-visited" value="Afternoon" class="form-control">Afternoon</input>
+            </div>
+            <div class="form-check">
+              <input type="radio" id="evening" name="time-visited" value="Evening" class="form-control">Evening</input>
+            </div>
+          </div>
+
+          <div class="form-check">
+            <label for="publish">Do we have permission to publish this survey on our site or social media?</label>
+            <input type="checkbox" id="publish" name="publish" class="form-control"/>
+          </div>
+
+          <div class="form-group">
+            <input type="submit" id="submit-button" class="btn btn-success" name="submit-button"/>
+            <input type="reset" id="reset-button" class="btn btn-danger" name="reset-button"/>
+          </div>
+
+        </fieldset>
+      </form>
+
+      <footer>
+        <p>Sloan Rabon's Food Fusion &copy</p>
+
+        <nav>
+          <a href="survey.html">Survey</a>
+          <a href="employment.html">Employment</a>
+        </nav>
+      </footer>
+    </div>
+
+  </body>
+</html>

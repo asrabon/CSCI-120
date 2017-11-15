@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles/fusionStyles.css" >
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Online Ordering</title>
+  </head>
+  <body>
+
+    <header>
+      <img src="images/logo.jpeg" alt="logo" height="125" width="300">
+      <h1>Sloan Rabon's Food Fusion</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="breakfast.html">Breakfast</a></li>
+          <li><a href="lunch.html">Lunch</a></li>
+          <li><a href="dinner.html">Dinner</a></li>
+          <li><a href="extras.html">Appetizers and Extras</a></li>
+          <li><a href="locations.html">Locations</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="events.html">Special Events</a></li>
+          <li><a href="order.html">Online Ordering</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form method="get" action="#">
+      <table class="table table-bordered table-striped">
+        <caption>Online Ordering</caption>
+
+        <thead>
+          <tr>
+            <th scope="col">Dish</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Cinammon Breakfast Pizza</td>
+            <td>$12.99</td>
+            <td><input type="number" name="cin-pizza-quantity" id="cin-pizza-quantity" min="0" max="10"></td>
+          </tr>
+
+          <tr>
+            <td>Bacon Breakfast Pizza</td>
+            <td>$10.99</td>
+            <td><input type="number" name="bacon-pizza-quantity" id="bacon-pizza-quantity" min="0" max="10"></td>
+          </tr>
+
+          <tr>
+            <td>Margherita Pizza</td>
+            <td>$14.99</td>
+            <td><input type="number" name="margherita-pizza-quantity" id="margherita-pizza-quantity" min="0" max="10"></td>
+          </tr>
+
+          <tr>
+            <td>North African Pizza</td>
+            <td>$13.99</td>
+            <td><input type="number" name="north-african-pizza-quantity" id="north-african-pizza-quantity" min="0" max="10"></td>
+          </tr>
+
+          <tr>
+            <td>Indian Pizza</td>
+            <td>$16.99</td>
+            <td><input type="number" name="indian-pizza-quantity" id="indian-pizza-quantity" min="0" max="10"></td>
+          </tr>
+
+          <tr>
+            <td>Fugazzeta</td>
+            <td>$12.99</td>
+            <td><input type="number" name="fugazzeta-quantity" id="fugazzeta-quantity" min="0" max="10"></td>
+          </tr>
+
+          <tr>
+            <td>Bruschetta with Ricotta and Tomatoes</td>
+            <td>$7.99</td>
+            <td><input type="number" name="bruschetta-quantity" id="bruschetta-quantity" min="0" max="10"></td>
+          </tr>
+
+          <tr>
+            <td>Chocolate Chip Pizza</td>
+            <td>$10.99</td>
+            <td><input type="number" name="chocolate-chip-pizza-quantity" id="chocolate-chip-pizza-quantity" min="0" max="10"></td>
+          </tr>
+        </tbody>
+
+        <tr>
+          <td>Total</td>
+          <td><input type="submit" name="submit-order-button" id="submit-order-button" class="btn btn-primary"></td>
+        </tr>
+
+      </table>
+    </form>
+
+    <footer>
+      <p>Sloan Rabon's Food Fusion &copy</p>
+
+      <nav>
+        <a href="survey.html">Survey</a>
+        <a href="employment.html">Employment</a>
+      </nav>
+    </footer>
+
+  </body>
+</html>
